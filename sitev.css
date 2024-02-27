@@ -107,12 +107,12 @@ p{
     font-size: 20px;
 }
 footer{
-    padding: 20px;
+    padding: 0px;
     box-shadow:  -4px -2px 20px 0px #00000040;
     display: flex;
     justify-content: space-between;
-    height: 38vh;
-    min-width: 97%;
+    height: 100%;
+    width: 100%;
 }
 .Div5{
     display: flex;
