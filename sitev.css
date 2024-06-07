@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Syriac+Eastern&display=swap');
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    flex-wrap: wrap;
+    /* eixo principal na horizontal = row */
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0px;
+}
+*{
+    margin: 0;
+    font-family: 'Noto Sans Syriac Eastern', sans-serif;
+}
+:root{
+    --cor1: #D218EB ;
+    --cor2: #A937B8 ;
+    --cor3: #7D4285 ;
+    --cor4: #840BE0;
+}
+.mascote{
+margin: 0px;
+}
+header{ 
+    box-shadow: -8px 4px 20px 0px #0000001a;
+    width: 100%;
+    height: 100%;
+}
+#links{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    margin-left: 50px;
+}
+#links>button{
+    border: none;
+    text-decoration: none;
+    background-color: #ffffff00;
+    margin-top: 40px;
+    font-size: 30px;
+    color: var(--cor4);
+    padding: 15px;
+    text-decoration: none;
+}
+#links>button:hover{
+    cursor: pointer;
+    transition: 1.5s;
+    color: rgb(105, 100, 100);
+}
+main > h2{
+    margin-top: 20px;
+    margin-bottom: -27px;
+}
+main{
+    flex-wrap: wrap;
+    /* eixo principal na horizontal = row */
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0px;
+    background-color: #ffffff00;
+    box-shadow: 1px 5px 20px 0px #00000008;
+    height: 100%;
+}
+h2{
+    padding: 40px;
+    text-align: left;
+    color: #840BE0 ;
+    font-size: 20px;
+}
+p{
+    margin: 9px;
+    font-size: 20px;
+    text-align: justify;
+}
+.list{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+.planos,
+.paises{ 
+    padding: 9px;
+    display: inline-block;
+    color: #3f185c ;
+}
+.imagens{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.amer,
+.eur{
+    padding: 14px;
+    display: inline-block;
+    width: 140px;
+}
+.enu{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+footer{
+    padding: 20px;
+    box-shadow:  -4px -2px 20px 0px #00000040;
+    display: flex;
+    justify-content: space-between;
+    height: 38vh;
+    min-width: 97%;
+}
+.Div5{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.Div5 > p{
+    color: #3a1655;
+    display: inline-block;
+}
+.Div5 svg{
+    width: 40px;
+    height: 40px;
+    padding: 7px;
+}
+.Div5 > .cont{
+    margin-top: 10px;
+    display: inline-flex;
+    color: #A937B8;
+}
+ul.end {
+    list-style-type: square; /* Define o estilo da lista como quadrados */
+    margin: 0; /* Remove margens na lista */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+}
